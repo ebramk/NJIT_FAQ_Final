@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Answer;
+use App\Question;
 use Illuminate\Support\Facades\Auth;
 
-class ProfileController extends Controller
+class AnswerController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -44,11 +46,12 @@ class ProfileController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($question,  $answer)
     {
-        $user = Auth::user();
-        $profile = $user->profile;
-        return view('profile')->with('profile', $profile);
+        $answer = Answer::find($answer);
+
+        return view('answer')->with(['answer' => $answer, 'question' => $question]);
+
     }
 
     /**

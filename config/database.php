@@ -1,5 +1,6 @@
 <?php
 
+$heroku_db_url = parse_url(env('DATABASE_URL', "postgres://forge:forge@localhost:5432/forge"));
 use Illuminate\Support\Str;
 
 return [
@@ -136,6 +137,17 @@ return [
             'database' => env('REDIS_CACHE_DB', 1),
         ],
 
+    ],
+
+    'pg-heroku' => [
+        'driver' => 'pgsql',
+        'host' => $heroku_db_url['host'],
+        'database' => substr($heroku_db_url['path'], 1),
+        'username' => $heroku_db_url['user'],
+        'password' => $heroku_db_url['pass'],
+        'charset' => 'utf8',
+        'prefix' => '',
+        'schema' => 'public',
     ],
 
 ];

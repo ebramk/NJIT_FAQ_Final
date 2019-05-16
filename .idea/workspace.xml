@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c252870-04f9-4e58-8504-c45d47bf374a" name="Default Changelist" comment="" />
+    <list default="true" id="0c252870-04f9-4e58-8504-c45d47bf374a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="195">
+              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -440,7 +442,7 @@
       <workItem from="1557601062531" duration="123000" />
       <workItem from="1557601287022" duration="50000" />
       <workItem from="1557606712232" duration="1752000" />
-      <workItem from="1558014419921" duration="6134000" />
+      <workItem from="1558014419921" duration="6620000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Created a databse, auth, and setup IDE helpers (part 1).">
       <created>1557092029701</created>
@@ -593,7 +595,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56831000" />
+    <option name="totallyTimeSpent" value="57317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,7 +611,7 @@
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32546267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32546267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" show_stripe_button="false" weight="0.33439693" />
@@ -622,7 +624,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924107" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32924107" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.328125" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.328125" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="DB Execution Console" order="11" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32924107" />
@@ -1037,8 +1039,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>

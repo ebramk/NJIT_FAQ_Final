@@ -107,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="390">
+              <caret line="86" column="35" lean-forward="true" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -499,7 +499,7 @@
       <workItem from="1557601287022" duration="50000" />
       <workItem from="1557606712232" duration="1752000" />
       <workItem from="1558014419921" duration="7526000" />
-      <workItem from="1558030846268" duration="1027000" />
+      <workItem from="1558030846268" duration="1498000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Created a databse, auth, and setup IDE helpers (part 1).">
       <created>1557092029701</created>
@@ -655,11 +655,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558022442067</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="test commit">
+      <created>1558032324652</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1558032324652</updated>
+    </task>
+    <task id="LOCAL-00024" summary="test commit">
+      <created>1558032625364</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1558032625364</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59250000" />
+    <option name="totallyTimeSpent" value="59721000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -674,7 +688,7 @@
     <frame x="67" y="25" width="1613" height="1025" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3299298" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3299298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" show_stripe_button="false" weight="0.33439693" />
@@ -689,7 +703,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924107" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32924107" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32700893" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32700893" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="DB Execution Console" order="11" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32924107" />
@@ -751,7 +765,8 @@
     <MESSAGE value="Added the ability to prevent users from viewing the home page if they haven't verified their email." />
     <MESSAGE value="including the schema in service provider." />
     <MESSAGE value="added the verification route to web.php and enforced it in the user model." />
-    <option name="LAST_COMMIT_MESSAGE" value="added the verification route to web.php and enforced it in the user model." />
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/database/factories/QuestionFactory.php">
@@ -1084,8 +1099,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="390">
+          <caret line="86" column="35" lean-forward="true" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
         </state>
       </provider>
     </entry>

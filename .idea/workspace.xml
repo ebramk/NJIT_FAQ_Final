@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0c252870-04f9-4e58-8504-c45d47bf374a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +36,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="195">
+              <caret line="22" column="79" lean-forward="true" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -149,10 +157,10 @@
         <option value="$PROJECT_DIR$/resources/views/answer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
@@ -461,7 +469,7 @@
       <workItem from="1557601287022" duration="50000" />
       <workItem from="1557606712232" duration="1752000" />
       <workItem from="1558014419921" duration="7526000" />
-      <workItem from="1558030846268" duration="3167000" />
+      <workItem from="1558030846268" duration="3695000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Created a databse, auth, and setup IDE helpers (part 1).">
       <created>1557092029701</created>
@@ -645,11 +653,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558034402572</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added the auth verification route to the web.php file.">
+      <created>1558034753135</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1558034753135</updated>
+    </task>
+    <task id="LOCAL-00028" summary="extending the email verification to the user model.">
+      <created>1558034882811</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1558034882811</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61390000" />
+    <option name="totallyTimeSpent" value="61918000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -662,8 +684,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1613" height="1025" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3299298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3299298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" show_stripe_button="false" weight="0.33439693" />
@@ -678,7 +701,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924107" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32924107" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32700893" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32700893" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="DB Execution Console" order="11" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32924107" />
@@ -742,7 +765,9 @@
     <MESSAGE value="added the verification route to web.php and enforced it in the user model." />
     <MESSAGE value="test commit" />
     <MESSAGE value="Added schema to the service provider." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added schema to the service provider." />
+    <MESSAGE value="added the auth verification route to the web.php file." />
+    <MESSAGE value="extending the email verification to the user model." />
+    <option name="LAST_COMMIT_MESSAGE" value="extending the email verification to the user model." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/database/factories/QuestionFactory.php">
@@ -962,13 +987,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="das://e5aed038-46a5-4b4c-9b2d-e31afe639ab9/schema/main/table/users" />
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/messages.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
@@ -1073,10 +1091,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="195">
+          <caret line="22" column="79" lean-forward="true" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
         </state>
       </provider>
     </entry>

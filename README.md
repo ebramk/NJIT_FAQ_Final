@@ -14,6 +14,8 @@ How to run:
 6.	Run: php artisan migrate
 7.	Run: unit tests: phpunit
 8.	7 Run: seeds php artisan migrate:refresh --seed
+
+
 Epic:  To ensure the overall security of the website and improve of the user experience.
 
 User case 1: As a user of NJIT’s FAQ system, I would like to know that only real users have access to the website. 

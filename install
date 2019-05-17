@@ -151,4 +151,84 @@ found [92m0[0m vulnerabilities
 [Thu May 16 20:31:01 2019] 127.0.0.1:59578 [200]: /css/app.css
 [Thu May 16 20:31:05 2019] 127.0.0.1:59582 [200]: /js/app.js
 [Thu May 16 20:31:05 2019] 127.0.0.1:59584 [200]: /css/app.css
-[Thu May 1
+[Thu May 16 20:31:06 2019] 127.0.0.1:59586 [200]: /favicon.ico
+[Thu May 16 20:31:11 2019] 127.0.0.1:59590 [200]: /js/app.js
+[Thu May 16 20:31:11 2019] 127.0.0.1:59592 [200]: /css/app.css
+[Thu May 16 20:31:15 2019] 127.0.0.1:59598 [200]: /favicon.ico
+[Thu May 16 20:31:35 2019] 127.0.0.1:59624 [200]: /js/app.js
+[Thu May 16 20:31:35 2019] 127.0.0.1:59626 [200]: /css/app.css
+[Thu May 16 20:31:36 2019] 127.0.0.1:59628 [200]: /favicon.ico
+[Thu May 16 20:31:44 2019] 127.0.0.1:59634 [200]: /js/app.js
+[Thu May 16 20:31:44 2019] 127.0.0.1:59636 [200]: /css/app.css
+[Thu May 16 20:31:50 2019] 127.0.0.1:59640 [200]: /js/app.js
+[Thu May 16 20:31:50 2019] 127.0.0.1:59642 [200]: /css/app.css
+[Thu May 16 20:32:00 2019] 127.0.0.1:59648 [200]: /js/app.js
+[Thu May 16 20:32:00 2019] 127.0.0.1:59650 [200]: /css/app.css
+[Thu May 16 20:32:01 2019] 127.0.0.1:59652 [200]: /favicon.ico
+[Thu May 16 20:32:05 2019] 127.0.0.1:59660 [200]: /js/app.js
+[Thu May 16 20:32:05 2019] 127.0.0.1:59662 [200]: /css/app.css
+[Thu May 16 20:32:06 2019] 127.0.0.1:59664 [200]: /favicon.ico
+[Thu May 16 20:32:16 2019] 127.0.0.1:59670 [200]: /js/app.js
+[Thu May 16 20:32:17 2019] 127.0.0.1:59672 [200]: /css/app.css
+[Thu May 16 20:32:17 2019] 127.0.0.1:59674 [200]: /favicon.ico
+[Thu May 16 20:32:21 2019] 127.0.0.1:59678 [200]: /js/app.js
+[Thu May 16 20:32:21 2019] 127.0.0.1:59680 [200]: /css/app.css
+[Thu May 16 20:32:22 2019] 127.0.0.1:59682 [200]: /favicon.ico
+^C
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ ^C
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ php artisan make:test Veri[K[K[K[Kverification[1PverificationVverification[C[C[C Vverification[C[C[C[C[C[C[C[C[C[C[C[C[CTest
+[32mTest created successfully.[39m
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ php artisan make:test VverificationTestserve[Knpm install nodemailer[5Pphp artisan serve
+[32mLaravel development server started:[39m <http://127.0.0.1:8000>
+[Thu May 16 20:44:42 2019] 127.0.0.1:59794 [200]: /favicon.ico
+^C
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ php artisan servemake:test VverificationTestserve[Knpm install nodemailerscript/plugin install https://github.com/adamwiggins/gmail_smtp.git[2Pgit://github.com/adamwiggins/gmail_smtp.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[35Pheroku addons:create sparkpostfigaro heroku:set -e productioninstall git://github.com/adamwiggins/gmail_smtp.git[29Pgit push heroku masterheroku config:add GMAIL_SMTP_PASSWORD=Godislove@12USER=ebramk96@gmail.com[13Pexport GMAIL_SMTP_PASSWORD=Godislove@12USER=ebramk96@gmail.comclear[Kgit push heroku master
+Counting objects: 17, done.
+Compressing objects:   5% (1/17)   Compressing objects:  11% (2/17)   Compressing objects:  17% (3/17)   Compressing objects:  23% (4/17)   Compressing objects:  29% (5/17)   Compressing objects:  35% (6/17)   Compressing objects:  41% (7/17)   Compressing objects:  47% (8/17)   Compressing objects:  52% (9/17)   Compressing objects:  58% (10/17)   Compressing objects:  64% (11/17)   Compressing objects:  70% (12/17)   Compressing objects:  76% (13/17)   Compressing objects:  82% (14/17)   Compressing objects:  88% (15/17)   Compressing objects:  94% (16/17)   Compressing objects: 100% (17/17)   Compressing objects: 100% (17/17), done.
+Writing objects:   5% (1/17)   Writing objects:  11% (2/17)   Writing objects:  17% (3/17)   Writing objects:  23% (4/17)   Writing objects:  29% (5/17)   Writing objects:  35% (6/17)   Writing objects:  41% (7/17)   Writing objects:  47% (8/17)   Writing objects:  52% (9/17)   Writing objects:  58% (10/17)   Writing objects:  64% (11/17)   Writing objects:  70% (12/17)   Writing objects:  76% (13/17)   Writing objects:  82% (14/17)   Writing objects:  88% (15/17)   Writing objects:  94% (16/17)   Writing objects: 100% (17/17)   Writing objects: 100% (17/17), 5.19 KiB | 759.00 KiB/s, done.
+Total 17 (delta 13), reused 0 (delta 0)
+remote: Compressing source files... done.[K
+remote: Building source:[K
+remote: 
+remote: -----> PHP app detected[K
+remote: -----> Bootstrapping...[K
+remote: -----> Installing platform packages...[K
+remote:        - php (7.3.5)[K
+remote:        - ext-mbstring (bundled with php)[K
+remote:        - apache (2.4.39)[K
+remote:        - nginx (1.14.2)[K
+remote: -----> Installing dependencies...[K
+remote:        Composer version 1.8.5 2019-04-09 17:46:47[K
+remote:        Loading composer repositories with package information[K
+remote:        Installing dependencies from lock file[K
+remote:        Package operations: 44 installs, 0 updates, 0 removals[K
+remote:          - Installing doctrine/inflector (v1.3.0): Loading from cache[K
+remote:          - Installing doctrine/lexer (v1.0.1): Loading from cache[K
+remote:          - Installing dragonmantank/cron-expression (v2.3.0): Loading from cache[K
+remote:          - Installing erusev/parsedown (1.7.3): Loading from cache[K
+remote:          - Installing symfony/polyfill-ctype (v1.11.0): Loading from cache[K
+remote:          - Installing phpoption/phpoption (1.5.0): Loading from cache[K
+remote:          - Installing vlucas/phpdotenv (v3.3.3): Loading from cache[K
+remote:          - Installing symfony/css-selector (v4.2.8): Loading from cache[K
+remote:          - Installing tijsverkoyen/css-to-inline-styles (2.2.1): Loading from cache[K
+remote:          - Installing symfony/polyfill-php72 (v1.11.0): Loading from cache[K
+remote:          - Installing symfony/polyfill-mbstring (v1.11.0): Loading from cache[K
+remote:          - Installing symfony/var-dumper (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/routing (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/process (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/http-foundation (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/contracts (v1.1.0): Loading from cache[K
+remote:          - Installing symfony/event-dispatcher (v4.2.8): Loading from cache[K
+remote:          - Installing psr/log (1.1.0): Loading from cache[K
+remote:          - Installing symfony/debug (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/http-kernel (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/finder (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/console (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/polyfill-intl-idn (v1.11.0): Loading from cache[K
+remote:          - Installing symfony/polyfill-iconv (v1.11.0): Loading from cache[K
+remote:          - Installing egulias/email-validator (2.1.7): Loading from cache[K
+remote:          - Installing swiftmailer/swiftmailer (v6.2.1): Loading from cache[K
+remote:          - Installing paragonie/random_compat (v9.99.99): Loading from cache[K
+remote:          - Installing ramsey/uuid (3.8.0): Loading from cache[K
+remote:          - Installing psr/simple-cache (1.0.1): Loading from cache
+remote:          - Installing psr/container (1.0.0): Loading fr

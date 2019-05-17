@@ -231,4 +231,171 @@ remote:          - Installing swiftmailer/swiftmailer (v6.2.1): Loading from cac
 remote:          - Installing paragonie/random_compat (v9.99.99): Loading from cache[K
 remote:          - Installing ramsey/uuid (3.8.0): Loading from cache[K
 remote:          - Installing psr/simple-cache (1.0.1): Loading from cache
-remote:          - Installing psr/container (1.0.0): Loading fr
+remote:          - Installing psr/container (1.0.0): Loading from cache[K
+remote:          - Installing opis/closure (3.2.0): Loading from cache[K
+remote:          - Installing symfony/translation (v4.2.8): Loading from cache[K
+remote:          - Installing nesbot/carbon (2.17.1): Loading from cache[K
+remote:          - Installing monolog/monolog (1.24.0): Loading from cache[K
+remote:          - Installing league/flysystem (1.0.51): Loading from cache[K
+remote:          - Installing laravel/framework (v5.8.17): Loading from cache[K
+remote:          - Installing fideloper/proxy (4.1.0): Loading from cache[K
+remote:          - Installing jakub-onderka/php-console-color (v0.2): Loading from cache[K
+remote:          - Installing nikic/php-parser (v4.2.1): Loading from cache[K
+remote:          - Installing jakub-onderka/php-console-highlighter (v0.4): Loading from cache[K
+remote:          - Installing dnoegel/php-xdg-base-dir (0.1): Loading from cache[K
+remote:          - Installing psy/psysh (v0.9.9): Loading from cache[K
+remote:          - Installing laravel/tinker (v1.0.8): Loading from cache[K
+remote:          - Installing laravelcollective/html (v5.8.0): Loading from cache[K
+remote:        Generating optimized autoload files[K
+remote:        > Illuminate\Foundation\ComposerScripts::postAutoloadDump[K
+remote:        > @php artisan package:discover --ansi[K
+remote:        Discovered Package: [32mfideloper/proxy[39m[K
+remote:        Discovered Package: [32mlaravel/tinker[39m[K
+remote:        Discovered Package: [32mlaravelcollective/html[39m[K
+remote:        Discovered Package: [32mnesbot/carbon[39m[K
+remote:        [32mPackage manifest generated successfully.[39m[K
+remote: -----> Preparing runtime environment...[K
+remote: -----> Checking for additional extensions to install...[K
+remote: -----> Discovering process types[K
+remote:        Procfile declares types -> web[K
+remote: 
+remote: -----> Compressing...[K
+remote:        Done: 19M[K
+remote: -----> Launching...[K
+remote:        Released v23[K
+remote:        https://njit-601-faq.herokuapp.com/ deployed to Heroku[K
+remote: 
+remote: Verifying deploy... done.[K
+To https://git.heroku.com/njit-601-faq.git
+   5df2459..1c3f5cf  master -> master
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ heroku oooope[K[K[K[K[Kpen
+[?25h]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ heroku opengit push heroku master\[K[5Pphp artisan servemake:test VverificationTestserve[K
+[32mLaravel development server started:[39m <http://127.0.0.1:8000>
+[Thu May 16 20:57:27 2019] 127.0.0.1:59978 [200]: /favicon.ico
+[Thu May 16 20:57:32 2019] 127.0.0.1:59984 [200]: /js/app.js
+[Thu May 16 20:57:32 2019] 127.0.0.1:59986 [200]: /css/app.css
+[Thu May 16 20:57:53 2019] 127.0.0.1:60002 [200]: /js/app.js
+[Thu May 16 20:57:53 2019] 127.0.0.1:60004 [200]: /css/app.css
+[Thu May 16 20:57:54 2019] 127.0.0.1:60006 [200]: /favicon.ico
+[Thu May 16 21:01:34 2019] 127.0.0.1:60044 [200]: /favicon.ico
+^C
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ php artisan serve[6Pheroku opengit push heroku master^C
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ php artisan serve[6Pheroku opengit push heroku master
+Counting objects: 10, done.
+Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 2.15 KiB | 2.15 MiB/s, done.
+Total 10 (delta 9), reused 0 (delta 0)
+remote: Compressing source files... done.[K
+remote: Building source:[K
+remote: 
+remote: -----> PHP app detected[K
+remote: -----> Bootstrapping...[K
+remote: -----> Installing platform packages...[K
+remote:        - php (7.3.5)[K
+remote:        - ext-mbstring (bundled with php)[K
+remote:        - apache (2.4.39)[K
+remote:        - nginx (1.14.2)[K
+remote: -----> Installing dependencies...[K
+remote:        Composer version 1.8.5 2019-04-09 17:46:47[K
+remote:        Loading composer repositories with package information[K
+remote:        Installing dependencies from lock file[K
+remote:        Package operations: 44 installs, 0 updates, 0 removals[K
+remote:          - Installing doctrine/inflector (v1.3.0): Loading from cache[K
+remote:          - Installing doctrine/lexer (v1.0.1): Loading from cache[K
+remote:          - Installing dragonmantank/cron-expression (v2.3.0): Loading from cache[K
+remote:          - Installing erusev/parsedown (1.7.3): Loading from cache[K
+remote:          - Installing symfony/polyfill-ctype (v1.11.0): Loading from cache[K
+remote:          - Installing phpoption/phpoption (1.5.0): Loading from cache[K
+remote:          - Installing vlucas/phpdotenv (v3.3.3): Loading from cache[K
+remote:          - Installing symfony/css-selector (v4.2.8): Loading from cache[K
+remote:          - Installing tijsverkoyen/css-to-inline-styles (2.2.1): Loading from cache[K
+remote:          - Installing symfony/polyfill-php72 (v1.11.0): Loading from cache[K
+remote:          - Installing symfony/polyfill-mbstring (v1.11.0): Loading from cache[K
+remote:          - Installing symfony/var-dumper (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/routing (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/process (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/http-foundation (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/contracts (v1.1.0): Loading from cache[K
+remote:          - Installing symfony/event-dispatcher (v4.2.8): Loading from cache[K
+remote:          - Installing psr/log (1.1.0): Loading from cache[K
+remote:          - Installing symfony/debug (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/http-kernel (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/finder (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/console (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/polyfill-intl-idn (v1.11.0): Loading from cache[K
+remote:          - Installing symfony/polyfill-iconv (v1.11.0): Loading from cache[K
+remote:          - Installing egulias/email-validator (2.1.7): Loading from cache[K
+remote:          - Installing swiftmailer/swiftmailer (v6.2.1): Loading from cache[K
+remote:          - Installing paragonie/random_compat (v9.99.99): Loading from cache[K
+remote:          - Installing ramsey/uuid (3.8.0): Loading from cache[K
+remote:          - Installing psr/simple-cache (1.0.1): Loading from cache[K
+remote:          - Installing psr/container (1.0.0): Loading from cache[K
+remote:          - Installing opis/closure (3.2.0): Loading from cache[K
+remote:          - Installing symfony/translation (v4.2.8): Loading from cache[K
+remote:          - Installing nesbot/carbon (2.17.1): Loading from cache[K
+remote:          - Installing monolog/monolog (1.24.0): Loading from cache[K
+remote:          - Installing league/flysystem (1.0.51): Loading from cache[K
+remote:          - Installing laravel/framework (v5.8.17): Loading from cache[K
+remote:          - Installing fideloper/proxy (4.1.0): Loading from cache[K
+remote:          - Installing jakub-onderka/php-console-color (v0.2): Loading from cache[K
+remote:          - Installing nikic/php-parser (v4.2.1): Loading from cache[K
+remote:          - Installing jakub-onderka/php-console-highlighter (v0.4): Loading from cache[K
+remote:          - Installing dnoegel/php-xdg-base-dir (0.1): Loading from cache[K
+remote:          - Installing psy/psysh (v0.9.9): Loading from cache[K
+remote:          - Installing laravel/tinker (v1.0.8): Loading from cache[K
+remote:          - Installing laravelcollective/html (v5.8.0): Loading from cache[K
+remote:        Generating optimized autoload files[K
+remote:        > Illuminate\Foundation\ComposerScripts::postAutoloadDump[K
+remote:        > @php artisan package:discover --ansi[K
+remote:        Discovered Package: [32mfideloper/proxy[39m[K
+remote:        Discovered Package: [32mlaravel/tinker[39m[K
+remote:        Discovered Package: [32mlaravelcollective/html[39m[K
+remote:        Discovered Package: [32mnesbot/carbon[39m[K
+remote:        [32mPackage manifest generated successfully.[39m[K
+remote: -----> Preparing runtime environment...[K
+remote: -----> Checking for additional extensions to install...[K
+remote: -----> Discovering process types[K
+remote:        Procfile declares types -> web[K
+remote: 
+remote: -----> Compressing...[K
+remote:        Done: 19M[K
+remote: -----> Launching...[K
+remote:        Released v24[K
+remote:        https://njit-601-faq.herokuapp.com/ deployed to Heroku[K
+remote: 
+remote: Verifying deploy... done.[K
+To https://git.heroku.com/njit-601-faq.git
+   1c3f5cf..a7eb28a  master -> master
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ herok op[K[K[K[K[K[Kroku open
+[?25h]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ php artisan db:seed
+[32mSeeding:[39m UserTableSeeder
+[32mSeeding:[39m QuestionsTableSeeder
+[32mSeeding:[39m AnswersTableSeeder
+[32mDatabase seeding completed successfully.[39m
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ php artisan db:seed -feature
+
+[37;41m                                   [39;49m
+[37;41m  The "-f" option does not exist.  [39;49m
+[37;41m                                   [39;49m
+
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ php artisan db:seed -feature[C[C[C[C[C[K[K[K[K[K[K[K[Kvendor/bin/phpunit
+
+[37;41m                                                     [39;49m
+[37;41m  Too many arguments, expected arguments "command".  [39;49m
+[37;41m                                                     [39;49m
+
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ php artisan db:seed vendor/bin/phpunit[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvendor/bin/phpunit
+PHPUnit 7.5.11 by Sebastian Bergmann and contributors.
+
+.........[41;37mF[0m                                                        10 / 10 (100%)
+
+Time: 727 ms, Memory: 22.00 MB
+
+There was 1 failure:
+
+1) Tests\Feature\VerificationTest::testExample
+Expected status code 200 but received 404.
+Failed asserting that false is true.
+
+/home/ebram/PhpstormProjects/NJIT_FAQ_Email_Ver/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php:133
+/home/ebram/PhpstormProjects/NJIT_FAQ_Email_Ver/tests/

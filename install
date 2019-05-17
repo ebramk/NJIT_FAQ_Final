@@ -1,0 +1,113 @@
+Script started on 2019-05-16 16:27:42-0400
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ cleargit push heroku master[11Pheroku opengit push heroku masterclear[K[Kexport GMAIL_SMTP_USER=ebramk96@gmail.com
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ export GMAIL_SMTP_PASSWORD=Godislove@12
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ heroku config:add GMAIL_SMTP_USER=ebramk96@gmail.com
+[G[2K[?25lSetting [32mGMAIL_SMTP_USER[39m and restarting [38;5;104m⬢ njit-601-faq[0m... [38;5;104m⣾[0m 
+[1A[57C[38;5;104m⣽[0m[1B[G[2K[1A[57C[38;5;104m⣻[0m[1B[G[2K[1A[57C[38;5;104m⢿[0m[1B[G[2K[1A[57C[38;5;104m⡿[0m[1B[G[2K[1A[57C[38;5;104m⣟[0m[1B[G[2K[1A[57C[38;5;104m⣯[0m[1B[G[2K[1A[57C[38;5;104m⣷[0m[1B[G[2K[1A[57C[38;5;104m⣾[0m[1B[G[2K[1A[57C[38;5;104m⣽[0m[1B[G[2K[1A[JSetting [32mGMAIL_SMTP_USER[39m and restarting [38;5;104m⬢ njit-601-faq[0m... done, [34m[1mv20[22m[39m
+[?25h[32mGMAIL_SMTP_USER[39m: ebramk96@gmail.com
+[?25h]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ heroku config:add GMAIL_SMTP_PASSWORD=Godislove@12
+[G[2K[?25lSetting [32mGMAIL_SMTP_PASSWORD[39m and restarting [38;5;104m⬢ njit-601-faq[0m... [38;5;104m⣾[0m 
+[1A[61C[38;5;104m⣽[0m[1B[G[2K[1A[61C[38;5;104m⣻[0m[1B[G[2K[1A[61C[38;5;104m⢿[0m[1B[G[2K[1A[61C[38;5;104m⡿[0m[1B[G[2K[1A[61C[38;5;104m⣟[0m[1B[G[2K[1A[61C[38;5;104m⣯[0m[1B[G[2K[1A[61C[38;5;104m⣷[0m[1B[G[2K[1A[61C[38;5;104m⣾[0m[1B[G[2K[1A[61C[38;5;104m⣽[0m[1B[G[2K[1A[61C[38;5;104m⣻[0m[1B[G[2K[1A[61C[38;5;104m⢿[0m[1B[G[2K[1A[61C[38;5;104m⡿[0m[1B[G[2K[1A[61C[38;5;104m⣟[0m[1B[G[2K[1A[61C[38;5;104m⣯[0m[1B[G[2K[1A[61C[38;5;104m⣷[0m[1B[G[2K[1A[61C[38;5;104m⣾[0m[1B[G[2K[1A[61C[38;5;104m⣽[0m[1B[G[2K[1A[61C[38;5;104m⣻[0m[1B[G[2K[1A[JSetting [32mGMAIL_SMTP_PASSWORD[39m and restarting [38;5;104m⬢ njit-601-faq[0m... done, [34m[1mv21[22m[39m
+[?25h[32mGMAIL_SMTP_PASSWORD[39m: Godislove@12
+[?25h]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ heroku config:add GMAIL_SMTP_PASSWORD=Godislove@12USER=ebramk96@gmail.com[13Pexport GMAIL_SMTP_PASSWORD=Godislove@12USER=ebramk96@gmail.comclear[Kgit push heroku master
+Counting objects: 2, done.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 304 bytes | 304.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Compressing source files... done.[K
+remote: Building source:[K
+remote: 
+remote: -----> PHP app detected[K
+remote: -----> Bootstrapping...[K
+remote: -----> Installing platform packages...[K
+remote:        - php (7.3.5)[K
+remote:        - ext-mbstring (bundled with php)[K
+remote:        - apache (2.4.39)[K
+remote:        - nginx (1.14.2)[K
+remote: -----> Installing dependencies...[K
+remote:        Composer version 1.8.5 2019-04-09 17:46:47[K
+remote:        Loading composer repositories with package information[K
+remote:        Installing dependencies from lock file[K
+remote:        Package operations: 44 installs, 0 updates, 0 removals[K
+remote:          - Installing doctrine/inflector (v1.3.0): Loading from cache[K
+remote:          - Installing doctrine/lexer (v1.0.1): Loading from cache[K
+remote:          - Installing dragonmantank/cron-expression (v2.3.0): Loading from cache[K
+remote:          - Installing erusev/parsedown (1.7.3): Loading from cache[K
+remote:          - Installing symfony/polyfill-ctype (v1.11.0): Loading from cache[K
+remote:          - Installing phpoption/phpoption (1.5.0): Loading from cache[K
+remote:          - Installing vlucas/phpdotenv (v3.3.3): Loading from cache[K
+remote:          - Installing symfony/css-selector (v4.2.8): Loading from cache[K
+remote:          - Installing tijsverkoyen/css-to-inline-styles (2.2.1): Loading from cache[K
+remote:          - Installing symfony/polyfill-php72 (v1.11.0): Loading from cache[K
+remote:          - Installing symfony/polyfill-mbstring (v1.11.0): Loading from cache[K
+remote:          - Installing symfony/var-dumper (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/routing (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/process (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/http-foundation (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/contracts (v1.1.0): Loading from cache[K
+remote:          - Installing symfony/event-dispatcher (v4.2.8): Loading from cache[K
+remote:          - Installing psr/log (1.1.0): Loading from cache[K
+remote:          - Installing symfony/debug (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/http-kernel (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/finder (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/console (v4.2.8): Loading from cache[K
+remote:          - Installing symfony/polyfill-intl-idn (v1.11.0): Loading from cache[K
+remote:          - Installing symfony/polyfill-iconv (v1.11.0): Loading from cache[K
+remote:          - Installing egulias/email-validator (2.1.7): Loading from cache[K
+remote:          - Installing swiftmailer/swiftmailer (v6.2.1): Loading from cache[K
+remote:          - Installing paragonie/random_compat (v9.99.99): Loading from cache[K
+remote:          - Installing ramsey/uuid (3.8.0): Loading from cache[K
+remote:          - Installing psr/simple-cache (1.0.1): Loading from cache
+remote:          - Installing psr/container (1.0.0): Loading from cache[K
+remote:          - Installing opis/closure (3.2.0): Loading from cache[K
+remote:          - Installing symfony/translation (v4.2.8): Loading from cache[K
+remote:          - Installing nesbot/carbon (2.17.1): Loading from cache[K
+remote:          - Installing monolog/monolog (1.24.0): Loading from cache[K
+remote:          - Installing league/flysystem (1.0.51): Loading from cache[K
+remote:          - Installing laravel/framework (v5.8.17): Loading from cache[K
+remote:          - Installing fideloper/proxy (4.1.0): Loading from cache[K
+remote:          - Installing jakub-onderka/php-console-color (v0.2): Loading from cache[K
+remote:          - Installing nikic/php-parser (v4.2.1): Loading from cache[K
+remote:          - Installing jakub-onderka/php-console-highlighter (v0.4): Loading from cache[K
+remote:          - Installing dnoegel/php-xdg-base-dir (0.1): Loading from cache[K
+remote:          - Installing psy/psysh (v0.9.9): Loading from cache[K
+remote:          - Installing laravel/tinker (v1.0.8): Loading from cache[K
+remote:          - Installing laravelcollective/html (v5.8.0): Loading from cache[K
+remote:        Generating optimized autoload files[K
+remote:        > Illuminate\Foundation\ComposerScripts::postAutoloadDump[K
+remote:        > @php artisan package:discover --ansi[K
+remote:        Discovered Package: [32mfideloper/proxy[39m[K
+remote:        Discovered Package: [32mlaravel/tinker[39m[K
+remote:        Discovered Package: [32mlaravelcollective/html[39m[K
+remote:        Discovered Package: [32mnesbot/carbon[39m[K
+remote:        [32mPackage manifest generated successfully.[39m[K
+remote: -----> Preparing runtime environment...[K
+remote: -----> Checking for additional extensions to install...[K
+remote: -----> Discovering process types[K
+remote:        Procfile declares types -> web[K
+remote: 
+remote: -----> Compressing...[K
+remote:        Done: 19M[K
+remote: -----> Launching...[K
+remote:        Released v22[K
+remote:        https://njit-601-faq.herokuapp.com/ deployed to Heroku[K
+remote: 
+remote: Verifying deploy... done.[K
+To https://git.heroku.com/njit-601-faq.git
+   ec02857..5df2459  master -> master
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ install git://github.com/adamwiggins/gmail_smtp.git
+install: missing destination file operand after 'git://github.com/adamwiggins/gmail_smtp.git'
+Try 'install --help' for more information.
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ figaro heroku:set -e production
+figaro: command not found
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ heroku addons:create sparkpost
+[G[2K[?25lCreating sparkpost on [38;5;104m⬢ njit-601-faq[0m... [38;5;104m⣾[0m 
+[1A[40C[38;5;104m⣽[0m[1B[G[2K[1A[40C[38;5;104m⣻[0m[1B[G[2K[1A[40C[38;5;104m⢿[0m[1B[G[2K[1A[40C[38;5;104m⡿[0m[1B[G[2K[1A[JCreating sparkpost on [38;5;104m⬢ njit-601-faq[0m... [31m[1m![22m[39m
+[?25h [31m▸[39m    Couldn't find either the add-on service or the add-on plan of "sparkpost".
+[?25h]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ script/plugin install git://github.com/adamwiggins/gmail_smtp.git
+bash: script/plugin: No such file or directory
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ script/plugin install git://github.com/adamwiggins/gmail_smtp.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/adamwiggins/gmail_smtp.git
+bash: script/plugin: No such file or directory
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ 
+]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ npm install nodemailer
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] | loadIdealTree:loadAllDepsIntoIdealTree: [7msill[0m [35minstall[0m loadIdealTree[0m[K[[7m       [27m[90m...........[0m] / post

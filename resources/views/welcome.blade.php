@@ -86,9 +86,9 @@
 
                 <div class="links">
 
-                    <a href="https://laracasts.com">Laracasts</a>
+                    <a href="https://laracasts.com">Tutorial</a>
 
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/ebramk/NJIT_FAQ_Final">GitHub</a>
                 </div>
             </div>
         </div>

@@ -86,7 +86,7 @@
 
                 <div class="links">
 
-                    <a href="https://laracasts.com">Tutorial</a>
+                    <a href="https://drive.google.com/file/d/1BGys8GTIdUdlRYVr68GcxoNUfDWrzTym/view?usp=sharing">Demo</a>
 
                     <a href="https://github.com/ebramk/NJIT_FAQ_Final">GitHub</a>
                 </div>

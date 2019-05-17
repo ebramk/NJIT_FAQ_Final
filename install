@@ -110,4 +110,45 @@ bash: script/plugin: No such file or directory
 bash: script/plugin: No such file or directory
 ]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ 
 ]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ npm install nodemailer
-[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] | loadIdealTree:loadAllDepsIntoIdealTree: [7msill[0m [35minstall[0m loadIdealTree[0m[K[[7m       [27m[90m...........[0m] / post
+[?25l[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] / rollbackFailedOptional: [34;40mverb[0m [35mnpm-session[0m 6333c0c2f511fe8a[0m[K[[90m..................[0m] | loadIdealTree:loadAllDepsIntoIdealTree: [7msill[0m [35minstall[0m loadIdealTree[0m[K[[7m       [27m[90m...........[0m] / postinstall: [7msill[0m [35minstall[0m executeActions[0m[K[[7m       [27m[90m...........[0m] - extract:nodemailer: [34;40mverb[0m [35mlock[0m using /home/ebram/.npm/_locks/staging-df37f978c015449d.lock for /home/ebram/PhpstormProjects/NJIT_FAQ_Email_Ver/node_modules/.staging[0m[K[[7m       [27m[90m...........[0m] - extract:nodemailer: [34;40mverb[0m [35mlock[0m using /home/ebram/.npm/_locks/staging-df37f978c015449d.lock for /home/ebram/PhpstormProjects/NJIT_FAQ_Email_Ver/node_modules/.staging[0m[K[[7m       [27m[90m...........[0m] \ extract:nodemailer: [34;40mverb[0m [35mlock[0m using /home/ebram/.npm/_locks/staging-df37f978c015449d.lock for /home/ebram/PhpstormProjects/NJIT_FAQ_Email_Ver/node_modules/.staging[0m[K[[7m       [27m[90m...........[0m] \ extract:nodemailer: [34;40mverb[0m [35mlock[0m using /home/ebram/.npm/_locks/staging-df37f978c015449d.lock for /home/ebram/PhpstormProjects/NJIT_FAQ_Email_Ver/node_modules/.staging[0m[K[[7m            [27m[90m......[0m] / refresh-package-json:nodemailer: [32;40mtiming[0m [35maction:finalize[0m Completed in 9ms[0m[K[K[?25h[37;40mnpm[0m [0m[34;40mnotice[0m[35m[0m created a lockfile as package-lock.json. You should commit this file.
+[0m[?25l[[7m            [27m[90m......[0m] / postinstall: [34;40mnotice[0m created a lockfile as package-lock.json. You should commit this file.[0m[K[K[?25h+ nodemailer@6.1.1
+added 1 package from 1 contributor and audited 1 package in 1.382s
+found [92m0[0m vulnerabilities
+
+[?25l[[7m            [27m[90m......[0m] | postinstall: [32;40mtiming[0m [35maudit body[0m Completed in 1ms[0m[K[K[?25h]0;ebram@ebram-VirtualBox: ~/PhpstormProjects/NJIT_FAQ_Email_Ver[01;32mebram@ebram-VirtualBox[00m:[01;34m~/PhpstormProjects/NJIT_FAQ_Email_Ver[00m$ php aa[Krtisan serve
+[32mLaravel development server started:[39m <http://127.0.0.1:8000>
+[Thu May 16 20:21:37 2019] 127.0.0.1:59242 [200]: /favicon.ico
+[Thu May 16 20:26:54 2019] 127.0.0.1:59340 [200]: /js/app.js
+[Thu May 16 20:26:54 2019] 127.0.0.1:59342 [200]: /css/app.css
+[Thu May 16 20:27:25 2019] 127.0.0.1:59354 [200]: /js/app.js
+[Thu May 16 20:27:25 2019] 127.0.0.1:59356 [200]: /css/app.css
+[Thu May 16 20:29:27 2019] 127.0.0.1:59480 [200]: /js/app.js
+[Thu May 16 20:29:27 2019] 127.0.0.1:59482 [200]: /css/app.css
+[Thu May 16 20:29:28 2019] 127.0.0.1:59486 [200]: /favicon.ico
+[Thu May 16 20:29:43 2019] 127.0.0.1:59498 [200]: /js/app.js
+[Thu May 16 20:29:43 2019] 127.0.0.1:59500 [200]: /css/app.css
+[Thu May 16 20:29:50 2019] 127.0.0.1:59508 [200]: /js/app.js
+[Thu May 16 20:29:50 2019] 127.0.0.1:59510 [200]: /css/app.css
+[Thu May 16 20:29:50 2019] 127.0.0.1:59512 [200]: /favicon.ico
+[Thu May 16 20:30:03 2019] 127.0.0.1:59518 [200]: /js/app.js
+[Thu May 16 20:30:03 2019] 127.0.0.1:59520 [200]: /css/app.css
+[Thu May 16 20:30:08 2019] 127.0.0.1:59524 [200]: /js/app.js
+[Thu May 16 20:30:08 2019] 127.0.0.1:59526 [200]: /css/app.css
+[Thu May 16 20:30:14 2019] 127.0.0.1:59530 [200]: /js/app.js
+[Thu May 16 20:30:14 2019] 127.0.0.1:59532 [200]: /css/app.css
+[Thu May 16 20:30:14 2019] 127.0.0.1:59534 [200]: /favicon.ico
+[Thu May 16 20:30:25 2019] 127.0.0.1:59540 [200]: /js/app.js
+[Thu May 16 20:30:25 2019] 127.0.0.1:59542 [200]: /css/app.css
+[Thu May 16 20:30:31 2019] 127.0.0.1:59546 [200]: /js/app.js
+[Thu May 16 20:30:31 2019] 127.0.0.1:59548 [200]: /css/app.css
+[Thu May 16 20:30:35 2019] 127.0.0.1:59554 [200]: /js/app.js
+[Thu May 16 20:30:35 2019] 127.0.0.1:59556 [200]: /css/app.css
+[Thu May 16 20:30:40 2019] 127.0.0.1:59562 [200]: /js/app.js
+[Thu May 16 20:30:40 2019] 127.0.0.1:59564 [200]: /css/app.css
+[Thu May 16 20:30:44 2019] 127.0.0.1:59568 [200]: /js/app.js
+[Thu May 16 20:30:45 2019] 127.0.0.1:59570 [200]: /css/app.css
+[Thu May 16 20:31:01 2019] 127.0.0.1:59572 [200]: /js/app.js
+[Thu May 16 20:31:01 2019] 127.0.0.1:59578 [200]: /css/app.css
+[Thu May 16 20:31:05 2019] 127.0.0.1:59582 [200]: /js/app.js
+[Thu May 16 20:31:05 2019] 127.0.0.1:59584 [200]: /css/app.css
+[Thu May 1
